@@ -278,6 +278,24 @@
             text-align: left;
         }
 
+        .team-card .profile-link {
+            display: inline-block;
+            margin-top: 1.2rem;
+            padding: 0.6rem 1rem;
+            color: var(--light-text);
+            background-color: var(--accent-color);
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-decoration: none;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .team-card .profile-link:hover {
+            background-color: var(--primary-color);
+            transform: translateY(-2px);
+        }
+
         footer {
             background-color: var(--primary-color);
             color: var(--light-text);
@@ -341,10 +359,10 @@
             <p>Neuro-Symbolic Artificial Intelligence represents a paradigm shift in AI research, combining the pattern recognition strength of deep neural networks with the logical reasoning capabilities of symbolic AI. This hybrid approach addresses fundamental limitations of purely neural or purely symbolic systems, creating AI that is both powerful and interpretable.</p>
             
             <div class="highlight-box">
-                <strong>Core Vision:</strong> Develop AI systems that can learn from data like neural networks, reason logically like symbolic systems, and explain their decisions to humans—achieving the trifecta of accuracy, reliability, and interpretability.
+                <strong>Core Vision:</strong> Develop AI systems that can learn from data like neural networks, reason logically like symbolic systems, and explain their decisions to humans, achieving the trifecta of accuracy, reliability, and interpretability.
             </div>
 
-            <p>The field has experienced rapid growth since 2020, with concentrated research efforts across multiple dimensions. Current neuro-symbolic AI research addresses critical challenges in learning, reasoning, knowledge representation, and explainability—paving the way toward more trustworthy and capable AI systems.</p>
+            <p>The field has experienced rapid growth since 2020, with concentrated research efforts across multiple dimensions. Current neuro-symbolic AI research addresses critical challenges in learning, reasoning, knowledge representation, and explainability, paving the way toward more trustworthy and capable AI systems.</p>
         </section>
 
         <section id="team">
@@ -358,6 +376,7 @@
                         <h3>Dr. Trinh Van Giang</h3>
                         <div class="position">Lecturer, HCMUT</div>
                         <p>Dr. Trinh Van Giang is a lecturer and researcher at Ho Chi Minh City University of Technology. He was a postdoctoral researcher with the LIRICA team at the LIS laboratory from April 2022 to September 2024, and later with the LIFEWARE team at INRIA Saclay from October 2024 to August 2025. Dr. Trinh earned his Ph.D. from the Japan Advanced Institute of Science and Technology in November 2021. His research interests lie at the intersection of theoretical computer science, symbolic artificial intelligence, and computational systems biology, with a focus on formal frameworks such as Boolean networks, Petri nets, answer set programming, and abstract argumentation, as well as their interconnections and real-world applications.</p>
+                        <a class="profile-link" href="https://giang-trinh.github.io/" target="_blank" rel="noopener noreferrer">Personal Website</a>
                     </div>
                 </div>
         
@@ -365,8 +384,9 @@
                     <img src="vuong_thi_hai_yen.jpg" alt="Dr. Vuong Thi Hai Yen">
                     <div class="team-card-content">
                         <h3>Dr. Vuong Thi Hai Yen</h3>
-                        <div class="position">Researcher, DS&KTLab</div>
-                        <p>Dr. Vuong Thi Hai Yen is a researcher at DS&KTLab, VNU University of Engineering and Technology. She graduated from the Japan Advanced Institute of Science and Technology. Her research focuses on legal natural language processing, information retrieval, and argumentation mining. Dr. Vuong has published research on data mining, comparative opinion mining, and knowledge graph construction for Vietnamese legal cases. Her work contributes to the development of neuro-symbolic approaches in legal AI and knowledge representation.</p>
+                        <div class="position">Researcher, DS&amp;KTLab</div>
+                        <p>Dr. Vuong Thi Hai Yen is a researcher at DS&amp;KTLab, VNU University of Engineering and Technology. She graduated from the Japan Advanced Institute of Science and Technology. Her research focuses on legal natural language processing, information retrieval, and argumentation mining. Dr. Vuong has published research on data mining, comparative opinion mining, and knowledge graph construction for Vietnamese legal cases. Her work contributes to the development of neuro-symbolic approaches in legal AI and knowledge representation.</p>
+                        <a class="profile-link" href="https://scholar.google.com/citations?user=YMCJQ8UAAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
                     </div>
                 </div>
         
@@ -374,8 +394,9 @@
                     <img src="nguyen_ha_thanh.jpg" alt="Dr. Nguyen Ha Thanh">
                     <div class="team-card-content">
                         <h3>Dr. Nguyen Ha Thanh</h3>
-                        <div class="position">Assistant Professor & Researcher</div>
+                        <div class="position">Assistant Professor &amp; Researcher</div>
                         <p>Dr. Nguyen Ha Thanh is an Assistant Professor of AI and Machine Learning at VinUniversity and a researcher at ROIS Tokyo. He received his B.E. degree in Information Technology and LL.B. degree in Law from Vietnam National University, Vietnam, and his Ph.D. degree in Information Science from the Japan Advanced Institute of Science and Technology, where he graduated as Valedictorian. Dr. Nguyen has research experience in Japan at the National Institute of Informatics, including the Principles of Informatics Research Division and the Research and Development Center for Large Language Models, as well as at the Center for Juris-Informatics, ROIS-DS, in Tokyo. His research focuses on neuro-symbolic artificial intelligence for institutional decision systems, combining large language models with knowledge representation and reasoning.</p>
+                        <a class="profile-link" href="https://vinuni.edu.vn/people/nguyen-ha-thanh/" target="_blank" rel="noopener noreferrer">Personal Website</a>
                     </div>
                 </div>
             </div>
@@ -384,7 +405,7 @@
         <div class="stats-container">
             <div class="stat-item">
                 <span class="stat-number">63%</span>
-                <span class="stat-label">Learning & Inference</span>
+                <span class="stat-label">Learning &amp; Inference</span>
             </div>
             <div class="stat-item">
                 <span class="stat-number">44%</span>
@@ -392,7 +413,7 @@
             </div>
             <div class="stat-item">
                 <span class="stat-number">35%</span>
-                <span class="stat-label">Logic & Reasoning</span>
+                <span class="stat-label">Logic &amp; Reasoning</span>
             </div>
             <div class="stat-item">
                 <span class="stat-number">28%</span>
@@ -406,13 +427,13 @@
             
             <div class="research-grid">
                 <div class="research-card">
-                    <h3>Learning & Inference</h3>
+                    <h3>Learning &amp; Inference</h3>
                     <p>Developing hybrid architectures that integrate neural learning with symbolic reasoning. This includes combining neural networks with logic programming, enabling systems to learn from limited data while maintaining logical consistency.</p>
                 </div>
                 
                 <div class="research-card">
-                    <h3>Logic & Reasoning</h3>
-                    <p>Integrating formal logic with neural systems using Answer Set Programming (ASP), Boolean networks, and constraint satisfaction. Ensures AI decisions are mathematically sound and formally verifiable.</p>
+                    <h3>Logic &amp; Reasoning</h3>
+                    <p>Integrating formal logic with neural systems using Answer Set Programming, Boolean networks, and constraint satisfaction. Ensures AI decisions are mathematically sound and formally verifiable.</p>
                 </div>
                 
                 <div class="research-card">
@@ -421,7 +442,7 @@
                 </div>
 
                 <div class="research-card">
-                    <h3>Explainability & Trustworthiness</h3>
+                    <h3>Explainability &amp; Trustworthiness</h3>
                     <p>Creating interpretable AI systems whose reasoning processes can be understood and verified. Leveraging symbolic components to provide transparency and build trust with human experts.</p>
                 </div>
             </div>
@@ -447,7 +468,7 @@
                 </div>
             </div>
 
-            <h3>2. Knowledge Graphs & Neural Integration</h3>
+            <h3>2. Knowledge Graphs &amp; Neural Integration</h3>
             <p>Knowledge graphs provide structured representations of domain knowledge. Recent advances focus on:</p>
             <div class="key-areas">
                 <div class="area-item">
@@ -481,7 +502,7 @@
                 </div>
             </div>
 
-            <h3>4. Explainability & Interpretability</h3>
+            <h3>4. Explainability &amp; Interpretability</h3>
             <p>Making AI systems transparent and understandable to humans:</p>
             <div class="key-areas">
                 <div class="area-item">
@@ -498,7 +519,7 @@
                 </div>
             </div>
 
-            <h3>5. Formal Methods & Verification</h3>
+            <h3>5. Formal Methods &amp; Verification</h3>
             <p>Ensuring AI system correctness and safety:</p>
             <div class="key-areas">
                 <div class="area-item">
@@ -521,10 +542,10 @@
             <p>Neuro-symbolic approaches are transforming multiple domains by combining neural learning with logical reasoning:</p>
             
             <ul class="applications-list">
-                <li><strong>Legal AI & Institutional Decision Systems:</strong> Analyzing complex legal documents, extracting relevant information, and providing interpretable legal reasoning for case analysis and decision support.</li>
+                <li><strong>Legal AI &amp; Institutional Decision Systems:</strong> Analyzing complex legal documents, extracting relevant information, and providing interpretable legal reasoning for case analysis and decision support.</li>
                 <li><strong>Question Answering Systems:</strong> Combining language understanding with knowledge graphs to answer complex questions requiring multi-hop reasoning.</li>
-                <li><strong>Healthcare & Medical Diagnosis:</strong> Integrating patient data analysis with medical knowledge bases and clinical reasoning rules for reliable diagnostic support.</li>
-                <li><strong>Autonomous Systems & Robotics:</strong> Enabling robots to learn from experience while reasoning about physical constraints and safety rules.</li>
+                <li><strong>Healthcare &amp; Medical Diagnosis:</strong> Integrating patient data analysis with medical knowledge bases and clinical reasoning rules for reliable diagnostic support.</li>
+                <li><strong>Autonomous Systems &amp; Robotics:</strong> Enabling robots to learn from experience while reasoning about physical constraints and safety rules.</li>
                 <li><strong>Computer Vision with Reasoning:</strong> Combining visual recognition with scene understanding and logical inference about object relationships.</li>
                 <li><strong>Natural Language Understanding:</strong> Parsing language structure with semantic reasoning for better comprehension and generation.</li>
                 <li><strong>Knowledge Discovery:</strong> Identifying patterns in data while maintaining consistency with domain knowledge and scientific principles.</li>
@@ -533,22 +554,22 @@
         </section>
 
         <section id="gaps">
-            <h2>Research Gaps & Future Directions</h2>
+            <h2>Research Gaps &amp; Future Directions</h2>
             
             <h3>Current Challenges</h3>
             <p>Despite significant progress, important research gaps remain in the neuro-symbolic AI landscape:</p>
             
             <div class="key-areas">
                 <div class="area-item">
-                    <h4>Explainability Integration (28% coverage)</h4>
+                    <h4>Explainability Integration, 28% coverage</h4>
                     <p>While explainability is recognized as critical, it remains underrepresented in current research. More work is needed to systematically integrate explainability across all neuro-symbolic approaches.</p>
                 </div>
                 <div class="area-item">
-                    <h4>Trustworthiness & Verification</h4>
+                    <h4>Trustworthiness &amp; Verification</h4>
                     <p>Developing comprehensive frameworks for verifying system correctness, ensuring reliability in critical applications, and building human trust in AI decisions.</p>
                 </div>
                 <div class="area-item">
-                    <h4>Meta-Cognition (5% coverage)</h4>
+                    <h4>Meta-Cognition, 5% coverage</h4>
                     <p>The least explored area. Creating systems that can reflect on their own reasoning, identify knowledge gaps, and adapt their approaches accordingly.</p>
                 </div>
                 <div class="area-item">
@@ -568,7 +589,7 @@
                 <li>Creating formal verification methods for hybrid neural-symbolic systems</li>
                 <li>Building self-aware AI systems with meta-cognitive capabilities</li>
                 <li>Scaling neuro-symbolic approaches to handle real-world complexity</li>
-                <li>Advancing toward Artificial General Intelligence (AGI) through principled integration of learning and reasoning</li>
+                <li>Advancing toward Artificial General Intelligence through principled integration of learning and reasoning</li>
             </ul>
         </section>
     </div>
